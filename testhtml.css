@@ -1,0 +1,138 @@
+*{
+    overflow: auto;
+}
+
+body {
+    font-family:Arial;
+    background-color: #A0A0A0;
+}
+p.category {
+    font-family:Arial;
+    background-color: black;
+    color: white;
+    text-align:center;
+    display:inline-block;
+    padding: 5px 20px 5px 20px;
+    margin-top:-15px;
+    margin-bottom: 0px;
+}
+
+.center{
+    text-align:center;
+    width:100%;
+    /*height:auto;*/
+}
+
+div.category{
+    margin-top:0px;
+    margin-bottom: 0px;
+    overflow:visible;
+}
+
+div.content {
+    background-color:white;
+    margin: 60px 10% 80px 10%;
+    padding: 0px 10% 10% 10%;
+    min-width: 600px;
+    overflow:visible;
+}
+h1{
+    text-align:center;
+    margin-top:30px;
+}
+p.description{
+    text-align: center;
+    font-weight: bold;
+    max-width:250px;
+    display:inline-block;
+}
+div.description{
+    text-align: center;
+}
+
+div.line{
+    width: 250px;
+    height: 5px;
+    background-color: royalblue;
+    display:inline-block;
+    text-align: center;
+}
+div.info{
+    position:relative;
+}
+table.info{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color:white;
+    text-align: center;
+    background-color: #8080A0E0;
+}
+table.info th{
+    padding-top: 0px;
+    font-size:14px;
+}
+table.info td{
+    padding-top: 0px;
+    font-size:14px;
+}
+img.info {
+    display: block;
+    min-height: 200 px;
+    object-fit: cover;
+}
+
+div.col{
+    width: 45%;
+    margin-top: 10px;
+}
+div.col h2{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom:4px solid steelblue;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+div.col1{
+    display: inline-block;
+    margin-right:10%;
+}
+div.col2{
+    float:right;
+}
+
+div.ingredients p {
+    border: 1px solid grey;
+    font-weight: bold;
+    padding: 5px 0px;
+    margin-top: 5px ;
+    margin-bottom: 0px;
+}
+    
+table.instructions p.number{
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    width: 25px;
+    height:25px;
+    box-sizing:border-box;
+    padding-top:4px;
+    text-align: center;
+    border-radius:50%;
+    margin:0px;
+}
+
+table.instructions td.step{
+    font-weight:bold;
+    padding-left: 10px;
+}
+
+table.instructions td{
+    vertical-align:top;
+}
+
+table.instructions tr{
+    height:10px;
+}
+
